@@ -1,7 +1,7 @@
 FILENAME = 'sample'
 FILETYPE = 'txt'
 
-with open(f'{FILENAME}.{FILETYPE}', 'r') as file:
+with open(f'./input/{FILENAME}.{FILETYPE}', 'r') as file:
     data = file.read()
 
 
