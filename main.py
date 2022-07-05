@@ -13,9 +13,7 @@ def onLine():
             for word in line:
                 if REPLACE_DOUBLEQUOTE:
                     if word == '"':
-                        print(word)
                         word = f'\{word}'
-                        print(word)
                 output.write(word)
         
 
