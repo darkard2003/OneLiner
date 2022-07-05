@@ -15,7 +15,8 @@ pass
 ## how_to():
 ### step_1():
 '''  
-put your input file in input folder.  
+Make an input folder and output folder in project directory.  
+Put your input file in input folder.  
 '''  
 
 pass
