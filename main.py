@@ -1,5 +1,5 @@
-FILENAME = 'sample'
-FILETYPE = 'txt'
+FILENAME = 'webpage'
+FILETYPE = 'html'
 
 with open(f'./input/{FILENAME}.{FILETYPE}', 'r') as file:
     data = file.read()
@@ -7,7 +7,6 @@ with open(f'./input/{FILENAME}.{FILETYPE}', 'r') as file:
 
 with open(f'./output/{FILENAME}.txt', 'w') as output:
     for line in data:
+        line = line.lstrip()
         for word in line:
-            if word == '\n':
-                word = ' '
             output.write(word)
